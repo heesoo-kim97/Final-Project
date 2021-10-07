@@ -19,10 +19,10 @@ CREATE TABLE "public"."resorts" (
 
 CREATE TABLE "public"."trips" (
 	"resortId" integer NOT NULL,
-	"start-date" integer NOT NULL UNIQUE,
-	"end-date" integer NOT NULL UNIQUE,
+	"startDate" integer NOT NULL UNIQUE,
+	"endDate" integer NOT NULL UNIQUE,
 	"Imageid" integer NOT NULL UNIQUE,
-	"trip-name" integer NOT NULL UNIQUE
+	"tripName" integer NOT NULL UNIQUE
 ) WITH (
   OIDS=FALSE
 );
